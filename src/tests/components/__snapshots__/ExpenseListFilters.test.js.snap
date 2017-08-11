@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListFilters correctly 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <select
+    onChange={[Function]}
+    value="date"
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <DateRangePicker
+    anchorDirection="left"
+    customArrowIcon={null}
+    customCloseIcon={null}
+    customInputIcon={null}
+    daySize={39}
+    disabled={false}
+    displayFormat={[Function]}
+    enableOutsideDays={false}
+    endDate={null}
+    endDateId="endDate"
+    endDatePlaceholderText="End Date"
+    firstDayOfWeek={null}
+    focusedInput={null}
+    hideKeyboardShortcutsPanel={false}
+    horizontalMargin={0}
+    initialVisibleMonth={null}
+    isDayBlocked={[Function]}
+    isDayHighlighted={[Function]}
+    isOutsideRange={[Function]}
+    isRTL={false}
+    keepOpenOnDateSelect={false}
+    minimumNights={1}
+    monthFormat="MMMM YYYY"
+    navNext={null}
+    navPrev={null}
+    numberOfMonths={1}
+    onClose={[Function]}
+    onDatesChange={[Function]}
+    onFocusChange={[Function]}
+    onNextMonthClick={[Function]}
+    onPrevMonthClick={[Function]}
+    orientation="horizontal"
+    phrases={
+      Object {
+        "chooseAvailableEndDate": [Function],
+        "chooseAvailableStartDate": [Function],
+        "clearDates": "Clear Dates",
+        "closeDatePicker": "Close",
+        "dateIsUnavailable": [Function],
+        "enterKey": "Enter key",
+        "escape": "Escape key",
+        "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+        "hideKeyboardShortcutsPanel": "Close the shortcuts panel",
+        "homeEnd": "Home and end keys",
+        "jumpToNextMonth": "Move forward to switch to the next month",
+        "jumpToPrevMonth": "Move backward to switch to the previous month",
+        "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+        select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+        "keyboardShortcuts": "Keyboard Shortcuts",
+        "leftArrowRightArrow": "Right and left arrow keys",
+        "moveFocusByOneDay": "Move backward (left) and forward (right) by one day",
+        "moveFocusByOneMonth": "Switch months",
+        "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week",
+        "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week",
+        "openThisPanel": "Open this panel",
+        "pageUpPageDown": "page up and page down keys",
+        "questionMark": "Question mark",
+        "returnFocusToInput": "Return to the date input field",
+        "selectFocusedDate": "Select the date in focus",
+        "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel",
+        "upArrowDownArrow": "up and down arrow keys",
+      }
+    }
+    readOnly={false}
+    renderCalendarInfo={null}
+    renderDay={null}
+    renderMonth={null}
+    reopenPickerOnClearDates={false}
+    required={false}
+    screenReaderInputMessage=""
+    showClearDates={true}
+    showDefaultInputIcon={false}
+    startDate={null}
+    startDateId="startDate"
+    startDatePlaceholderText="Start Date"
+    withFullScreenPortal={false}
+    withPortal={false}
+  />
+</div>
+`;
+
+exports[`should render ExpenseListFilters with alt data correctly 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="bills"
+  />
+  <select
+    onChange={[Function]}
+    value="amount"
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <DateRangePicker
+    anchorDirection="left"
+    customArrowIcon={null}
+    customCloseIcon={null}
+    customInputIcon={null}
+    daySize={39}
+    disabled={false}
+    displayFormat={[Function]}
+    enableOutsideDays={false}
+    endDate={"1970-01-04T00:00:00.000Z"}
+    endDateId="endDate"
+    endDatePlaceholderText="End Date"
+    firstDayOfWeek={null}
+    focusedInput={null}
+    hideKeyboardShortcutsPanel={false}
+    horizontalMargin={0}
+    initialVisibleMonth={null}
+    isDayBlocked={[Function]}
+    isDayHighlighted={[Function]}
+    isOutsideRange={[Function]}
+    isRTL={false}
+    keepOpenOnDateSelect={false}
+    minimumNights={1}
+    monthFormat="MMMM YYYY"
+    navNext={null}
+    navPrev={null}
+    numberOfMonths={1}
+    onClose={[Function]}
+    onDatesChange={[Function]}
+    onFocusChange={[Function]}
+    onNextMonthClick={[Function]}
+    onPrevMonthClick={[Function]}
+    orientation="horizontal"
+    phrases={
+      Object {
+        "chooseAvailableEndDate": [Function],
+        "chooseAvailableStartDate": [Function],
+        "clearDates": "Clear Dates",
+        "closeDatePicker": "Close",
+        "dateIsUnavailable": [Function],
+        "enterKey": "Enter key",
+        "escape": "Escape key",
+        "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+        "hideKeyboardShortcutsPanel": "Close the shortcuts panel",
+        "homeEnd": "Home and end keys",
+        "jumpToNextMonth": "Move forward to switch to the next month",
+        "jumpToPrevMonth": "Move backward to switch to the previous month",
+        "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+        select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+        "keyboardShortcuts": "Keyboard Shortcuts",
+        "leftArrowRightArrow": "Right and left arrow keys",
+        "moveFocusByOneDay": "Move backward (left) and forward (right) by one day",
+        "moveFocusByOneMonth": "Switch months",
+        "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week",
+        "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week",
+        "openThisPanel": "Open this panel",
+        "pageUpPageDown": "page up and page down keys",
+        "questionMark": "Question mark",
+        "returnFocusToInput": "Return to the date input field",
+        "selectFocusedDate": "Select the date in focus",
+        "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel",
+        "upArrowDownArrow": "up and down arrow keys",
+      }
+    }
+    readOnly={false}
+    renderCalendarInfo={null}
+    renderDay={null}
+    renderMonth={null}
+    reopenPickerOnClearDates={false}
+    required={false}
+    screenReaderInputMessage=""
+    showClearDates={true}
+    showDefaultInputIcon={false}
+    startDate={"1970-01-01T00:00:00.000Z"}
+    startDateId="startDate"
+    startDatePlaceholderText="Start Date"
+    withFullScreenPortal={false}
+    withPortal={false}
+  />
+</div>
+`;
