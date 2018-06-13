@@ -10,7 +10,7 @@ exports[`should correctly render LoginPage 1`] = `
     <h1
       className="box-layout__title"
     >
-      Expensify
+      Budget App
     </h1>
     <p>
       It's time to get your expenses under control.

@@ -16,7 +16,7 @@ exports[`should render Header correctly 1`] = `
         to="/dashboard"
       >
         <h1>
-          Expensify
+          Budget App
         </h1>
       </Link>
       <button
